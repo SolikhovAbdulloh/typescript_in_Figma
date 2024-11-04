@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contiener{
+    margin: 0 auto;
+    padding: 10px 40px;
+    max-width: 1440px;
+}
+.bg1{
+    background-image: url(../img/Imagejj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+a:hover{
+    color: orange;
+}
+@media  (max-width:716px){
+    .navbar_link{
+        display: none;
+    }
+}
+
+@media  (max-width:768px){
+    .bek{
+        display: none;
+    }
+}
+
+.fff a {
+    color: white ;
+}
+
+.fff :hover {
+    color: orange ;
+}
+.tatairovka{
+    background-image: url(../img/tatirovka.png);
+    background-size: cover;
+}
+.gul{
+    background-image: url(/img/gul.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+
+}
+button:hover{
+    background-color: green;
+}
+.fa-bookmark:hover{
+    color: red;
+}
+.left12{
+    background-image: url(/img/kema.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+.rigth11{
+    background-image: url(../img/girl.png);
+   width: 50%;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-color: #B4D1E0;
+}
