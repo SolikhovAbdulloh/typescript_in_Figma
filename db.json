@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "img":"/img/img1.png",
+      "category": "Flights",
+      "title": "Passengers Suffer as Crowded Field Puts Pressure on Europe’s Airlines",
+      "text": "Weaker carriers have fallen by the wayside amid fierce competition, while others have been hit by bad luck. The result: thousands of canceled flights."
+    },
+    {
+      "id": "2",
+      "img": "/img/img2.png",
+      "category": "Food",
+      "title": "Three Courses, 20 Euros: The Affordable Dining Renaissance in Paris",
+      "text": "The Los Angeles area, for all of its culinary diversity, has not historically been thought of as a haven for bread lovers. The area has a reputation as a place where gluten fears to tread."
+    },
+    {
+      "id": "3",
+      "img": "/img/img3.png",
+      "category": "Science",
+      "title": "Watch the High-Flying Physics of a Plant’s Exploding Fruits",
+      "text": "Three undergradute physics majors and their professor worked out how the hairyflower wild petunia shoots tiny seeds more than 20 feet through the air"
+    },
+    {
+      "id": "4",
+      "img": "/img/img4.png",
+      "category": "Health",
+      "title": "How the Shape of Your Ears Affects What You Hear",
+      "text": "We’re able to locate sound because our brains grasp the shape of our ears. When that shape changes, we need time and practice to adapt. Ears are a peculiarly individual piece of anatomy."
+    },
+    {
+      "id": "5",
+      "img": "/img/img6.png",
+      "category": "Art & Design",
+      "title": "New Contemporary Institute Reverberates in Richmond’s Historic Landscape",
+      "text": "With an increase in extreme weather expected in the years to come, forests could be changed permanently as the world continues to warm"
+    },
+    {
+      "id": "6",
+      "img": "/img/img5.png",
+      "category": "Science",
+      "title": "Forests Protect the Climate. A Future With More Storms Would Mean Trouble.",
+      "text": "The center, which will open in April, takes a bold look at race and other social issues that still resonate in the region as well as the nation. A new Institute for Contemporary Art is set to open."
+    }
+  ]
+}

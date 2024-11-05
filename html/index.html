@@ -16,7 +16,7 @@
   <body>
     <div class="contiener navbar_link flex justify-between items-center">
       <div class="flex gap-2 items-center">
-        <i class="fa fa-bars flex items-center cursor-pointer gap-[30px]"></i>
+        <i id="menu_header" class="fa fa-bars flex items-center cursor-pointer gap-[30px]"></i>
         <p class="border-r-slate-800">Sections</p>
         <div class="items-center justify-center">
           <a href="#">
@@ -341,11 +341,24 @@
         >
           Read more
         </button>
+        
       </div>
     </section>
+    <br>
+    <div class="btn_market contiener text-center mt-[15vh]">
 
-    <section class="mt-[5vh]">
+        <button id="flights" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">Flights</button>
+        <button id="Foods" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">Foods</button>
+        <button id="Health" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">Health</button>
+        <button id="Science" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">Science</button>
+        <button id="Art_design" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">Art & Design</button>
+        <button id="All" class="rounded-2xl bg-[#ff6145] text-[white] w-[138px] h-[40px]">All</button>
+
+    </div>
+
+    <section class="mt-[5vh] market">
       <div class="contiener gap-3 grid grid-cols-[repeat(2,2fr)]">
+       
         <!-- <div class="card flex gap-4">
           <img src="/img/img1.png"  alt="img1" />
           <div class="flex flex-col items-start justify-around">
@@ -371,8 +384,9 @@
             </p>
           </div>
         </div> -->
+        <div id="card_market_server"></div>
 
-        <div class="card flex gap-4 bg-gray-200 p-4">
+         <!-- <div class="card  gap-4  grid grid-cols-[repeat(2,2fr)] bg-gray-200 p-4">
           <img src="/img/img1.png" alt="img1" />
           <div class="flex flex-col items-start justify-around">
             <p
@@ -398,9 +412,9 @@
               <i class="fa-regular fa-heart"></i> 830
             </p>
           </div>
-        </div>
+        </div>  -->
 
-        <div class="card flex gap-4 bg-gray-200 p-4">
+        <!-- <div class="card flex gap-4 bg-gray-200 p-4">
           <img src="/img/img2.png" alt="img1" />
           <div class="flex flex-col items-start justify-around">
             <p
@@ -530,7 +544,7 @@
               <i class="fa-regular fa-heart"></i> 830
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -749,5 +763,6 @@
         <div class="border-[solid] border-[2px] border-[#ede1e1] mt-5 w-[100%]"></div>
       </div>
     </footer>
+    <script src="../main.js"></script>
   </body>
 </html>
