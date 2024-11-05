@@ -61,10 +61,10 @@ function PrintData(products: any): any {
     let div = document.createElement("div");
 
     div.innerHTML = `
-      
+      <div class = "flex flex-col w-[100%]">
          <div class="card grid grid-cols-[repeat(2,2fr)] gap-4 bg-gray-200 p-4">
           <img src="${item.img}" alt="img1" />
-          <div class="flex flex-col items-start justify-around">
+          <div class="flex  flex-col items-start justify-around">
             <p
               class="flex items-center font-black text-[12px] text-[#4592ff] w-[100%] justify-between"
             >
@@ -82,6 +82,7 @@ function PrintData(products: any): any {
             </p>
           </div>
         </div>
+      </div>
 
       `;
     card.appendChild(div);
